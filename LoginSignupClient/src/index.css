@@ -1,0 +1,106 @@
+*,
+::before,
+::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background: white;
+  border: solid 1px rgb(199, 199, 199);
+  border-radius: 10px;
+  padding: 32px 48px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: rgb(165, 165, 165) 1px 2px 15px;
+}
+
+body{
+  background: rgb(248, 248, 255);
+}
+
+.container form{
+margin-top: 20px; 
+margin-inline: 15px;
+}
+
+.container label{
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container input{
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  border-bottom: solid black 1px;
+  width: 280px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container input::placeholder{
+  font-size: 16px;
+}
+
+button{
+  background: rgb(10, 201, 10);
+  border: none;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 2px;
+  margin-bottom: 12px;
+  width: 250px; 
+  box-shadow: 1px 2px 5px rgb(197, 197, 197); 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span{
+  font-weight: 400;
+  font-size: 15px;
+  margin: 5px;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 400;
+}
+
+#login{
+background: rgb(9, 101, 206);
+}
+
+.toastt{
+  display: flex;
+  background: black;
+}
+
+h1{
+  text-align: center;
+margin-bottom: 10px;
+}
+
+.loginSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
